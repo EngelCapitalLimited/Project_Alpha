@@ -1,0 +1,42 @@
+# Data files (too large for Git)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.parquet
+
+# Output files (regenerable)
+outputs/figures/*.png
+outputs/figures/*.pdf
+outputs/results/*.csv
+outputs/results/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Julia
+Manifest.toml
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+deps/deps.jl
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json

@@ -1,0 +1,20 @@
+name = "ProjectAlpha"
+uuid = "12345678-1234-5678-1234-567812345678"
+authors = ["Chris Angelopoulos <chrisengel25@icloud.com>"]
+version = "0.1.0"
+
+[deps]
+# Core dependencies will be added as we build
+# Examples: Turing, StateSpaceModels, DataFrames, CSV, Plots
+
+[compat]
+julia = "1.10"
+```
+
+**Note:** The UUID is a placeholder—Julia will generate the real one when we activate the environment later. For now, this establishes the structure.
+
+**Save (Ctrl+S)** and close.
+
+Verify it's there:
+```
+dir
