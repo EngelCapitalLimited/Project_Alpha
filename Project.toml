@@ -1,20 +1,31 @@
 name = "ProjectAlpha"
 uuid = "12345678-1234-5678-1234-567812345678"
-authors = ["Chris Angelopoulos <chrisengel25@icloud.com>"]
 version = "0.1.0"
+authors = ["Chris Angelopoulos <chrisengel25@icloud.com>"]
 
 [deps]
-# Core dependencies will be added as we build
-# Examples: Turing, StateSpaceModels, DataFrames, CSV, Plots
+ArviZ = "131c737c-5715-5e2e-ad31-c244f01c1dc7"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StateSpaceModels = "99342f36-827c-5390-97c9-d7f9ee765c78"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
 [compat]
+ArviZ = "0.14.0"
+CSV = "0.10.15"
+DataFrames = "1.8.1"
+DifferentialEquations = "7.17.0"
+ForwardDiff = "1.3.0"
+IJulia = "1.33.0"
+MCMCChains = "7.6.0"
+Optim = "1.13.3"
+Plots = "1.41.2"
+StateSpaceModels = "0.7.0"
+Turing = "0.41.4"
 julia = "1.10"
-```
-
-**Note:** The UUID is a placeholder—Julia will generate the real one when we activate the environment later. For now, this establishes the structure.
-
-**Save (Ctrl+S)** and close.
-
-Verify it's there:
-```
-dir
