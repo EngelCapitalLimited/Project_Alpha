@@ -1,4 +1,4 @@
-# Project Alph: Novel R-Star Framework
+# Project Alpha: Novel R-Star Framework
 
 **Chief Economist & Global Markets Strategist**: Chris Angelopoulos
 **Institution**: Engel Capital
